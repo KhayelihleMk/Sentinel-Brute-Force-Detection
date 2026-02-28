@@ -1,1 +1,7 @@
+// Brute-Force Detection Query – Sentinel Lab
+// Detects failed login attempts targeting the same account on the same computer
 
+SecurityEvent
+| where EventID == 4625
+| summarize FailedAttempts = count() by Account, Computer, bin(TimeGenerated, 5m)
+| where FailedAttempts >= 3
