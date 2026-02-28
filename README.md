@@ -6,7 +6,7 @@ This project focuses on detecting brute-force authentication attempts using Micr
 
 The objective was to simulate SOC-level monitoring and detection engineering in a cloud-based SIEM environment.
 
----
+
 
 ## Objectives
 
@@ -16,7 +16,7 @@ The objective was to simulate SOC-level monitoring and detection engineering in 
 - Generate and validate security alerts
 - Perform basic alert triage and analysis
 
----
+
 
 ## Technologies Used
 
@@ -25,7 +25,7 @@ The objective was to simulate SOC-level monitoring and detection engineering in 
 - Windows Security Event Logs  
 - KQL (Kusto Query Language)  
 
----
+
 
 ## Detection Logic
 
